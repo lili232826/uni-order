@@ -1,0 +1,3 @@
+<import src="/components/uni-notice-bar/uni-notice-bar.vue.wxml" />
+<import src="/components/uni-grid/uni-grid.vue.wxml" />
+

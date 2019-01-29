@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+			
+		},
+		{
+			"path": "pages/profit/profit",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+			
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+			
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+			
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#d81e06",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "static/image/icon_index.png",
+            "selectedIconPath": "static/image/icon_index_HL.png",
+            "text": "首页"
+        }, {
+            "pagePath": "pages/profit/profit",
+            "iconPath": "static/image/icon_profit.png",
+            "selectedIconPath": "static/image/icon_profit_HL.png",
+            "text": "福利"
+        },{
+            "pagePath": "pages/my/my",
+            "iconPath": "static/image/icon_mi.png",
+            "selectedIconPath": "static/image/icon_mi_HL.png",
+            "text": "我的"
+        }]
+    }
+}
